@@ -11,10 +11,8 @@
 #include <iostream>
 
 
-TEST_CASE("ListNode testing", "[Functions testing]"){
-    
-    
-   
+TEST_CASE("ListNode testing", "[Functions testing]")
+{
     SECTION("Empty")
     {
         List ls;
@@ -36,6 +34,42 @@ TEST_CASE("ListNode testing", "[Functions testing]"){
         ls.Clear();
         REQUIRE(ls.Empty() == 1);
     }
+}
+
+ TEST_CASE("ListNode testing 2", "[Push_Pop func testing]")
+{
+   SECTION("PushBack")
+     {
+         List ls;
+         ls.PushBack(4);
+         ls.PushBack(11);
+         CHECK(ls.Size() == 2);
+         REQUIRE(ls.Size() == 2);
+     }
+   SECTION("PushFront")
+     {
+         List ls;
+         ls.PushFront(3);
+         CHECK(ls.Size() == 1);
+         REQUIRE(ls.Size() == 1);
+         ls.PushFront(2);
+         CHECK(ls.Size() == 2);
+         REQUIRE(ls.Size() == 2);
+     }
+   SECTION("PopBack")
+       {
+           List ls;
+           ls.PopBack();
+           CHECK(ls.Empty() == 1);
+           REQUIRE(ls.Empty() == 1);
+       }
+   SECTION("PopFront")
+       {
+           List ls;
+           ls.PopFront();
+           CHECK(ls.Empty() == 1);
+           REQUIRE(ls.Empty() == 1);
+       }
 }
 
 int main ()
