@@ -1,0 +1,9 @@
+/Users/a/Desktop/cmake_test/CMakeFiles/cppl-homework-04.01.dir
+/Users/a/Desktop/cmake_test/CMakeFiles/edit_cache.dir
+/Users/a/Desktop/cmake_test/CMakeFiles/rebuild_cache.dir
+/Users/a/Desktop/cmake_test/Catch2-build/CMakeFiles/edit_cache.dir
+/Users/a/Desktop/cmake_test/Catch2-build/CMakeFiles/rebuild_cache.dir
+/Users/a/Desktop/cmake_test/Catch2-build/src/CMakeFiles/Catch2.dir
+/Users/a/Desktop/cmake_test/Catch2-build/src/CMakeFiles/Catch2WithMain.dir
+/Users/a/Desktop/cmake_test/Catch2-build/src/CMakeFiles/edit_cache.dir
+/Users/a/Desktop/cmake_test/Catch2-build/src/CMakeFiles/rebuild_cache.dir

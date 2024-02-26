@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/cppl-homework-04.01.dir/test-main.cpp.o" "CMakeFiles/cppl-homework-04.01.dir/list.cpp.o" -o cppl-homework-04.01  Catch2-build/src/libCatch2.a 
