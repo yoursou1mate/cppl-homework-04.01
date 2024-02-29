@@ -59,16 +59,21 @@ TEST_CASE("ListNode testing", "[Functions testing]")
    SECTION("PopBack")
        {
            List ls;
+           ls.PushBack(4);
            ls.PopBack();
-           CHECK(ls.Empty() == 1);
-           REQUIRE(ls.Empty() == 1);
+           CHECK(ls.PopBack() == 0);
+           ls.PopBack();
+           REQUIRE_THROWS(ls.PopBack(), "list is empty");
+           
        }
    SECTION("PopFront")
        {
            List ls;
+           ls.PushFront(23);
            ls.PopFront();
-           CHECK(ls.Empty() == 1);
-           REQUIRE(ls.Empty() == 1);
+           CHECK(ls.PopFront() == 0);
+           ls.PopFront();
+           REQUIRE_THROWS(ls.PopFront(), "list is empty");
        }
 }
 
